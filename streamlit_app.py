@@ -4,6 +4,11 @@ import math
 import pandas as pd
 import streamlit as st
 
+import os
+print(f"Operating System Installed: {os.name}")
+text = f"Operating system installed: {os.name}"
+st.text(text)
+
 """
 # Welcome to Streamlit!
 
